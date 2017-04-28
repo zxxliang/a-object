@@ -1,0 +1,217 @@
+
+/*页头*/
+html,body {
+    width: 100%;
+    height: 100%;
+}
+/*跳转到地址栏*/
+.has-reminder {
+    width: 90%;
+    height: 40px;
+    /*line-height: 60px;*/
+    padding: 20px 10px;
+}
+.has-reminder .skip {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+.has-reminder .skip .skip-word {
+    display: inline-block;
+    width: 88%;
+    color: #FFC16C;
+    margin-left: 7%;
+}
+.has-reminder .skip .skip-word p {
+    width: 100%;
+}
+
+.has-reminder a .imgOne {
+    width: 5%;
+    position: absolute;
+    top: 40%;
+    left: 0;
+}
+.has-reminder a .imgTwo {
+    width: 3%;
+    position: absolute;
+    top: 40%;
+    right: 0;
+}
+/*彩条加详情字*/
+.detail {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+}
+.detail img {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    width: 100%;
+}
+/*商品具体信息*/
+.content {
+    border-top: 1px solid #cccccc;
+}
+.content, .content ul {
+    width: 100%;
+    background-color: #FAFAFA;
+}
+.content ul li {
+    width: 100%;
+    height: 6rem;
+    border-bottom: 1px solid #cccccc;
+}
+.content ul li .mid {
+    width: 90%;
+    height: 90%;
+    /*border: 1px solid #000;*/
+    margin: 2.5% auto;
+}
+.content ul li .mid .left-img {
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+.content ul li .mid .left-img img {
+    width: 100%;
+    height: 100%;
+}
+.content ul li .mid .right-content {
+    width: 50%;
+    height: 100%;
+    /*background-color: yellow;*/
+    float: right;
+    padding-left: 10%;
+}
+.content ul .right-content>p {
+    height: 20%;
+    padding-top: 5%;
+    width: 100%;
+    /*font-size: 0.8rem;*/
+}
+.show {
+    display: inline-block;
+}
+/*加减商品的特效*/
+.right-content-three .num img {
+    width: 0.5rem;
+}
+.right-content-three .number {
+    display: none;
+}
+.right-content-three .number>span:nth-child(1),.right-content-three .number>span:nth-child(3) {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    text-align: center;
+    line-height: 1rem;
+    border-radius: 50%;
+    /*background-color: #fff;*/
+    border: 1px solid #dd137b;
+    color: #dd137b;
+}
+.right-content-three .number>span:nth-child(3) {
+    background-color: #dd137b;
+    color: #fff;
+}
+.right-content-three .htm {
+    border-radius: 5px;
+    /*display: inline-block;*/
+    width: 3rem;
+    height: 1.4rem;
+    text-align: center;
+    line-height: 1.4rem;
+    border: 1px solid #dd137b;
+}
+/*配送时间表*/
+.delivery {
+    height: 30%;
+    width: 100%;
+    /*background-color: red;*/
+}
+.delivery .top {
+    width: 100%;
+    height: 50%;
+    border-bottom: 1px solid #F2F2F2;
+}
+.delivery .top span {
+    margin: 0.5rem 5px;
+    display: inline-block;
+}
+.delivery .top .delivery-time {
+    margin-left: 2rem;
+    /*border: 1px solid #000;*/
+    width: 70%;
+    height: 50%;
+}
+.delivery .top .delivery-time .time-left {
+    width: 50%;
+    position: relative;
+    height: 100%;
+}
+.delivery .top .delivery-time .time-left p:nth-child(2){
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.delivery .top .delivery-time .time-right {
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+.delivery .top .delivery-time .time-right p:nth-child(2){
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.delivery .bottom {
+    width: 100%;
+    height: 50%;
+}
+.public::before {
+    content: '';
+    display: inline-block;
+    border: 1px solid #B5B5B5;
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-right: 1rem;
+}
+
+/*底部*/
+.footer {
+    height: 3rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    border-top: 1px solid #cccccc;
+}
+.footer .left {
+    width: 50%;
+    height: 3rem;
+    /*line-height: 3rem;*/
+    text-align: center;
+}
+.footer .left span {
+    width: 50%;
+    height: 3rem;
+    line-height: 3rem;
+    display: inline-block;
+    font-size: 1rem;
+}
+.footer .right {
+    width: 50%;
+    height: 3rem;
+}
+.footer .right .submit {
+    width: 50%;
+    height: 3rem;
+    text-align: center;
+    line-height: 3rem;
+    background-image: linear-gradient(to right , #FF7300 , #FF4B00 );
+    font-size: 1rem;
+    color: #fff;
+}

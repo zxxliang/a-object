@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>登录页面</title>
+    <link rel="stylesheet" href="./css/base.css"/>
+    <link rel="stylesheet" href="./css/enter.css"/>
+</head>
+<body>
+     <div class="register">
+         <!--商品图标-->
+         <div class="logo">
+             <a href="#">
+                 <img src="./images/register-logo.png" alt="易生鲜"/>
+             </a>
+         </div>
+         <!--注册表单-->
+         <form action="#" id="list">
+             <input type="number" placeholder="手机号" class="public one" autofocus/>
+             <br>
+
+             <input type="text" placeholder="请输入您的密码" class="public three" />
+             <br>
+
+             <div class="footer">
+                 <a href="./list.html">
+                     <input type="submit" value="登 录" class="btn2"/>
+                 </a>
+             </div>
+         </form>
+         <div class="skip clearfix">
+             <a href="./find.html" class="fl">找回密码</a>
+             <a href="./register.html" class="fr">注册</a>
+         </div>
+         <div class="hint">注册一次，自动登录</div>
+     </div>
+     <!--背景覆盖层和弹出层-->
+     <div class="bg">
+         <div class="pop">
+             <p class="word"></p>
+             <div class="sure">
+                 <button class="btn3">确定</button>
+             </div>
+         </div>
+     </div>
+</body>
+<script src="./js/zepto.js"></script>
+<script src="./js/enter.js"></script>
+
+</html>

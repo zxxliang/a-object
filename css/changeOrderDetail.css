@@ -1,0 +1,317 @@
+
+
+/*订单列表详情页面*/
+/*商品具体信息*/
+.content {
+    /*border-top: 1px solid #cccccc;*/
+    /*display: none;*/
+}
+.content, .content ul {
+    width: 100%;
+    height: 100%;
+    background-color: #fafafa;
+    overflow: hidden;
+}
+.content ul li {
+    width: 100%;
+    /*height: 6rem;*/
+    border-bottom: 1px solid #cccccc;
+    background-color: #FAFAFA;
+    padding: 10px 0;
+}
+.content ul li .mid {
+    width: 100%;
+    height: 85px;
+}
+.content ul li .mid .left-img {
+    float: left;
+    position: relative;
+    width: 130px;
+    height: 85px;
+    background: url("../images/content1.png") no-repeat center center;
+    background-size: contain;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+/*.content ul li .mid .left-img img:nth-child(1) {*/
+/*width: 150px;*/
+/*}*/
+.content ul li .mid .left-img .action {
+    width: 40px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.content ul li .mid .right-content {
+    height: 85px;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.content ul .right-content>p {
+    height: 28.3px;
+    line-height: 28.3px;
+    width: 100%;
+}
+.right-content-one>span:nth-child(1) {
+    /*margin-right: 2rem;*/
+    font-size: 20px;
+    font-family: Verdana, "华文细黑";
+    color: #666666;
+}
+.show {
+    display: inline-block;
+}
+.show span {
+    border-radius: 3px;
+}
+/*特限 两字的特效*/
+.right-content-one .show>span:nth-child(1), .right-content-one .show>span:nth-child(2) {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    text-align: center;
+    line-height: 1rem;
+    background-color: #FFAD37;
+    color: #fff;
+}
+.right-content-one .show>span:nth-child(1) {
+    background-color:  #dd137b;
+    color: #fff;
+}
+.right-content-two>span:nth-child(1) {
+    text-decoration:line-through;
+    color: #999999;
+    font-size: 12px;
+}
+.right-content-two>span:nth-child(2) {
+    color: #999999;
+    font-size: 12px;
+}
+.right-content-three>span:nth-child(1) {
+    font-size: 20px;
+    color: #FFAD37;
+}
+.right-content-three .right span {
+    font-size: 16px;
+}
+.right-content-three .right img {
+    height: 12px;
+}
+/*页头*/
+.myGoods .public {
+    /*border-top: 4px solid #E5E5E5;*/
+    border-bottom: 5px solid #E5E5E5;
+}
+/*跳转到地址栏*/
+/*.myGoods .public .rember {*/
+/*padding: 10px 5% 0;*/
+/*border-bottom: 1px solid #cccccc;*/
+/*}*/
+.myGoods .public .img {
+    width: 100%;
+    height: 120px;
+    background: url("../images/bg.png") no-repeat center center;
+    background-size: cover;
+}
+.myGoods .reminder {
+    width: 90%;
+    height: 60px;
+    padding: 20px 5%;
+}
+.myGoods .reminder .skip {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+.myGoods .reminder .skip .arrow {
+    height: 2rem;
+    position: absolute;
+    top: 20%;
+    right: 0;
+}
+.myGoods .reminder .skip .skip-word {
+    display: inline-block;
+    /*width: 80%;*/
+    height: 65px;
+    color: #333333;
+    /*overflow: hidden;*/
+    margin-left: 35px;
+}
+.myGoods .reminder .skip .skip-word .top {
+    font-size: 16px;
+    margin-bottom: 5px;
+    overflow: hidden;
+}
+.myGoods .reminder .skip .skip-word .blue {
+    color: #0093dd;
+}
+.myGoods .reminder .skip .skip-word .data {
+    color: #999999;
+}
+.myGoods .reminder .skip .skip-word .bottom {
+    font-size: 14px;
+    overflow: hidden;
+}
+.myGoods .reminder .skip .skip-word p {
+    width: 100%;
+}
+
+.myGoods .reminder a .imgOne {
+    width: 25px;
+    /*display: block;*/
+    position: absolute;
+    top: 20%;
+    left: 0;
+}
+.myGoods .reminder a .car {
+    height: 25px;
+}
+.myGoods .reminder a .imgTwo {
+    width: 3%;
+    position: absolute;
+    top: 40%;
+    right: 0;
+}
+.myGoods .public .doSomeThing {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-top: 1px solid #cccccc;
+}
+.myGoods .public .doSomeThing .right {
+    margin-left: 5%;
+    font-size: 16px;
+}
+/*订单的一些基本信息*/
+.myGoods .shopInfor {
+    height: 140px;
+    border-bottom: 5px solid #E5E5E5;
+}
+.myGoods .shopInfor .small {
+    height: 30px;
+    line-height: 30px;
+    padding: 0 35px;
+}
+.myGoods .shopInfor .small>.fl {
+    color: #cccccc;
+    font-size: 16px;
+}
+.myGoods .shopInfor .small>.fr {
+    font-size: 16px;
+}
+.myGoods .shopInfor>.line {
+    border-bottom: 1px solid #cccccc;
+}
+.myGoods .shopInfor .big {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 35px;
+}
+.myGoods .shopInfor .big>.fl {
+    /*color: #cccccc;*/
+    font-size: 20px;
+}
+.myGoods .shopInfor .big>.fr {
+    color: #FFAD37;
+    font-size: 25px;
+}
+.all-in {
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    border-bottom: 5px solid #E5E5E5;
+    position: relative;
+}
+.all-in button {
+    width: 60%;
+    height: 60%;
+    background-color: #DD137B;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.shopInfor-time {
+    height: 125px;
+    font-size: 16px;
+    padding: 5px 0;
+    color: #cccccc;
+}
+.shopInfor-time .small {
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+    padding: 0 35px;
+}
+.copy {
+    width: 4rem;
+    height: 1.5rem;
+    /*margin-top: 0.25rem;*/
+    background-color: #fff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    color: #cccccc;
+}
+/*您可能的需要*/
+.myGoods .need {
+    /*height: 3rem;*/
+    background-color: #eeeeee;
+    position: relative;
+}
+.myGoods .need .goon {
+    height: 50px;
+    line-height: 50px;
+    width: 130px;
+    font-size: 16px;
+    margin: 0 auto;
+}
+.myGoods .need .goon img {
+    height: 25px;
+}
+.myGoods .greens {
+    /*height: 12rem;*/
+    background-color: #EEEEEE;
+    margin-bottom: 1%;
+}
+.myGoods .greens .fl {
+    /*margin-right: 1%;*/
+}
+.myGoods .greens .outside {
+    /*height: 11rem;*/
+    width: 47.5%;
+    background-color: #fff;
+    padding: 0.5rem 1%;
+}
+.myGoods .greens .outside .potato {
+    width: 100%;
+    background: url("../images/detail1.png") no-repeat center center;
+    background-size: contain;
+}
+.myGoods .greens .outside .potato img {
+    width: 100%;
+}
+.myGoods .greens .outside .potato-word {
+    height: 2rem;
+    line-height: 2rem;
+    overflow: hidden;
+}
+.myGoods .greens .outside .potato-word span:nth-child(1){
+    font-size: 16px;
+}
+.myGoods .greens .outside .potato-word .health{
+    color: #C5C5C5;
+}
+.myGoods .greens .outside .potato-word .money {
+    /*height: 1rem;*/
+    width: 17px;
+}
+.myGoods .greens .outside .potato-word .two {
+    font-size: 22px;
+    color: #FFAD37;
+    margin-left: 5px;
+}
+.myGoods .greens .outside .potato-word .three {
+    /*font-size: 22px;*/
+    color: #cccccc;
+    text-decoration: line-through;
+    margin-left: 5px;
+}

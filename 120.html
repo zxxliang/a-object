@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+    var jsonDate = '[{ "name":"周星驰","age":23 },{ "name":"周星驰1","age":30 }]';
+
+//    var jsonObj = eval( '(' + jsonDate + ')' );  // eval();方法
+
+    var jsonObj = JSON.parse( jsonDate );
+
+    jsonObj.map(function( v,i ){
+        console.log(v.age)
+        console.log(v.name)
+//        console.log(i)
+    })
+
+
+
+    console.log( jsonObj );
+</script>
+
+</body>
+</html>

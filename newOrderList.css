@@ -1,0 +1,196 @@
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+.data {
+    /*width: 100%;*/
+    height: 50px;
+    border-bottom: 1px solid #cccccc;
+    padding: 0 20px;
+}
+.data .data-time {
+    font-size: 18px;
+}
+.data .data-time,.data .data-logo {
+    height: 50px;
+    line-height: 50px;
+}
+/*加入状态图片*/
+.data-logo {
+    width: 50px;
+}
+.data-logo-ing {
+    background: url("../images/order6.png") no-repeat center center;
+    background-size: cover;
+}
+.data-logo-finish {
+    background: url("../images/order1.png") no-repeat center center;
+    background-size: cover;
+}
+.data-logo-cancel {
+    background: url("../images/order7.png") no-repeat center center;
+    background-size: cover;
+}
+
+.detail-list {
+    height: 85px;
+    width: 100%;
+    border-bottom: 1px solid #cccccc;
+    padding: 10px 0px;
+    overflow-x: auto;
+    /*white-space: nowrap;*/
+}
+.detail-list ul {
+    /*overflow: hidden;*/
+    height: 85px;
+    width: 300%;
+}
+.detail-list ul li {
+    float: left;
+    height: 85px;
+    width: 130px;
+}
+.detail-list ul li a {
+    height: 100%;
+    width: 100%;
+    display: block;
+    background: url("../images/orderlist2.png") no-repeat center center;
+    background-size: cover;
+}
+.status {
+    height: 70px;
+    border-bottom: 1px solid #cccccc;
+    overflow: hidden;
+}
+.status>.fl>.public {
+    width: 40px;
+    height: 50px;
+    font-size: 12px;
+    /*margin-left: 5px;*/
+    padding: 10px 0;
+}
+.status>.fl>.public .middle {
+    width: 52px;
+    height: 50px;
+    position: relative;
+}
+.status>.fl>.public .middle .mid-img {
+    height: 25px;
+    width: 25px;
+    margin-left: 11px;
+    /*background-color: red;*/
+}
+/*给正在运输中的状态加背景图片*/
+.mid-img-admit {
+    background: url("../images/order2.png") no-repeat center center;
+    background-size: cover;
+}
+.mid-img-pay {
+    background: url("../images/order3.png") no-repeat center center;
+    background-size: cover;
+}
+.mid-img-transport {
+    background: url("../images/order4.png") no-repeat center center;
+    background-size: cover;
+}
+.mid-img-finish {
+    background: url("../images/order5.png") no-repeat center center;
+    background-size: cover;
+}
+.mid-img-cancel {
+    background: url("../images/order8.png") no-repeat center center;
+    background-size: cover;
+}
+
+.status>.fl>.public .middle>.admit {
+    position: absolute;
+    bottom: 0;
+    left: 4px;
+}
+
+.status>.fr {
+    height: 70px;
+    line-height: 70px;
+    margin-right: 10px;
+}
+.status>.fr span:nth-child(1){
+    color: #cccccc;
+    font-size: 18px;
+}
+.status>.fr span:nth-child(2){
+    color: #FFAD37;
+    font-size: 24px;
+}
+.check>.fr {
+    height: 50px;
+    line-height: 50px;
+}
+.check {
+    height: 50px;
+    /*line-height: 50px;*/
+    width: 100%;
+    border-bottom: 1px solid #cccccc;
+}
+.check .cancel ,.check>.fr .btn {
+    height: 35px;
+    width: 90px;
+    background-color: #fff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 5px;
+    color: #cccccc;
+}
+.insulate {
+    height: 10px;
+    background-color: #E5E5E5;
+}
+.show-bg {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(204,204,204,.3);
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+}
+.show-bg .sure {
+    width: 90%;
+    height: 160px;
+    border: 1px solid #000;
+    background-color: #fff;
+    border-radius: 5px;
+
+}
+.show-bg .sure .sure-top {
+    height: 100px;
+    border-bottom: 1px solid #cccccc;
+}
+.show-bg .sure .sure-top p:nth-child(1){
+    font-size: 18px;
+    border-bottom: 1px solid #cccccc;
+}
+.show-bg .sure .sure-top p {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    overflow: hidden;
+    font-size: 15px;
+}
+.show-bg .sure .sure-bottom {
+    height: 60px;
+    padding: 10px 0;
+    text-align: center;
+}
+.show-bg .sure .sure-bottom button {
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+@media screen and (min-width: 300px){
+    .show-bg .sure .sure-bottom .gone {
+        margin-right: 20px;
+    }
+}

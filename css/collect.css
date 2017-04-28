@@ -1,0 +1,254 @@
+
+
+
+/*页头*/
+html,body {
+    width: 100%;
+    height: 100%;
+}
+.header {
+    width: 100%;
+    height: 3rem;
+    border-bottom: 1px solid #cccccc;
+    position: relative;
+    font-size: 16px;
+}
+.header>.fl {
+    left: 5%;
+}
+.header>.all>span {
+    margin-left: 35px;
+}
+.header>.fr {
+    right: 5%;
+}
+.hidden-input {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+input[type=checkbox]+span {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #cccccc;
+}
+
+/* active style goes here */
+input[type=checkbox]:checked+span {
+    background-color: #dd137b;
+}
+/*商品类别栏*/
+/*li的下边框*/
+.banner .bor {
+    border-bottom: 4px solid #DD127B;
+    color: #DC137B;
+}
+.banner {
+    width: 100%;
+    height: 3rem;
+    /*overflow: hidden;*/
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.banner ul {
+    width: 200%;
+    height: 3rem;
+    /*border-bottom: 3px solid #cccccc;*/
+}
+.banner ul li {
+    float: left;
+    width: 10%;
+    height: 2.8rem;
+    color: #666666;
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 2.8rem;
+    position: relative;
+}
+/*中间的那条线*/
+.line {
+    width: 100%;
+    height: 2px;
+    border-top: 1px solid #D6D6D6;
+    border-bottom: 1px solid #D6D6D6;
+    background-color: #EEEEEE;
+    margin-top: -4px;
+}
+/*商品具体信息*/
+.content {
+    /*border-top: 1px solid #cccccc;*/
+    /*display: none;*/
+}
+.content, .content ul {
+    width: 100%;
+    height: 100%;
+}
+.content ul li {
+    width: 100%;
+    height: 6rem;
+    border-bottom: 1px solid #cccccc;
+}
+.content ul li .mid {
+    width: 90%;
+    height: 5rem;
+    margin: 1% auto;
+    position: relative;
+}
+.content ul li .mid .left-img {
+    float: left;
+    position: relative;
+    margin-left: 5%;
+}
+.content ul li .mid .left-img img:nth-child(1) {
+    width: 130px;
+}
+.content ul li .mid .left-img .action {
+    width: 40px;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+.content ul li .mid .right-content {
+    width: 52%;
+    height: 5rem;
+    /*background-color: yellow;*/
+    float: right;
+    /*padding-left: 5%;*/
+}
+.content ul .right-content>.clearfix {
+    height: 2.5rem;
+    line-height: 2.5rem;
+    width: 100%;
+}
+.right-content-one>span:nth-child(1) {
+    /*margin-right: 2rem;*/
+    font-size: 20px;
+    font-family: Verdana, "华文细黑";
+    color: #666666;
+}
+.right-content-three>span:nth-child(1) {
+    font-size: 14px;
+    color: #cccccc;
+}
+.right-content .right-content-three {
+    position: relative;
+}
+.right-content .right-content-three .money {
+    height: 1rem;
+    margin-right: 4rem;
+    transform: translateY(-30%);
+}
+.right-content-three .number {
+    font-size: 25px;
+    color: #FFAD37;
+}
+.right-content .right-content-three .icon {
+    font-size: 35px;
+}
+.delete {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 3rem;
+    width: 100%;
+    border-top: 1px solid #cccccc;
+    background-color: #fff;
+}
+.delete .del {
+    width: 5rem;
+    height: 100%;
+    background-color: #fff;
+    color: red;
+    font-size: 16px;
+    border-left: 1px solid #cccccc;
+}
+.icon {
+    color: #cccccc;
+}
+.orange {
+    color: #FFAD37;
+}
+.subjectAll {
+    color: #dd137b;
+}
+/*无收藏页面的css*/
+.box {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.box .outSider {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 20%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+.box .mid {
+    width: 120px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 20px;
+    position: relative;
+}
+.box .mid img{
+    width: 100%;
+}
+.box span {
+    font-size: 15px;
+    color: #cccccc;
+}
+.bg {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(204,204,204,0.3);
+    display: none;
+}
+.bg .pop {
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    width: 80%;
+    height: 8rem;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+.bg .pop p {
+    height: 5rem;
+    line-height:  5rem;
+    width: 100%;
+    border-bottom: 1px solid #cccccc;
+    font-family: Verdana,"华文细黑";
+    color: #000;
+    font-size: 1rem;
+}
+.bg .pop .sure {
+    height: 3rem;
+    line-height:  3rem;
+    width: 100%;
+}
+.bg .pop .sure button {
+    width: 30%;
+    height: 70%;
+    /*border-radius: 5px;*/
+    color: #666666;
+    background-color: #fff;
+    font-size: 16px;
+}
+.bg .pop .sure .btn3 {
+    border-right: 1px solid #cccccc;
+}

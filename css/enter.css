@@ -1,0 +1,103 @@
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+.register {
+    width: 70%;
+    margin: 1.5rem auto;
+}
+.register .logo {
+    height: 4rem;
+    width: 60%;
+    margin: 0 auto;
+}
+.register .logo a img {
+    width: 100%;
+    height: 100%;
+}
+/*注册表单*/
+.register form {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.register .public {
+    width: 98%;
+    height: 2.5rem;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+.register form>input {
+    margin-bottom: 1rem;
+}
+
+.register .footer {
+    width: 80%;
+    margin: 1rem auto;
+}
+.register .btn2 {
+    height: 2.5rem;
+    width: 100%;
+    background-color: #dd137b;
+    font-family: Verdana,"华文细黑";
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+/*背景覆盖层和弹出层*/
+.bg {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(204,204,204,0.3);
+    display: none;
+}
+.bg .pop {
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    width: 80%;
+    height: 8rem;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+.bg .pop p {
+    height: 5rem;
+    line-height:  5rem;
+    width: 100%;
+    border-bottom: 1px solid #666666;
+    font-family: Verdana,"华文细黑";
+    color: #000;
+    font-size: 1rem;
+}
+.bg .pop .sure {
+    height: 3rem;
+    line-height:  3rem;
+    width: 100%;
+}
+.bg .pop .sure .btn3 {
+    width: 70%;
+    height: 70%;
+    border-radius: 5px;
+}
+/*提示信息*/
+.skip, .hint {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0.8rem;
+    color: #cccccc;
+}
+.skip a {
+    color: #cccccc;
+}
+.hint {
+    margin-top: 20%;
+}

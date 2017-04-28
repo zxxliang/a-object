@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>删除地址页面</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <link rel="stylesheet" href="./css/base.css"/>
+    <link rel="stylesheet" href="./css/city.css"/>
+    <link rel="stylesheet" href="css/address.css"/>
+</head>
+<body>
+<div class="bg">
+    <div class="list">
+        <div class="top clearfix">
+            <a href="javascript:;"><span class="fl greater-than"> 
+                <img src="images/alter1.png" alt=""/>
+            </span></a>
+            <span class="fl">修改地址</span>
+            <a class="fr" href="./myAddress.html">保存</a>
+        </div>
+        <form action="">
+            <div class="public">
+                收货人<input type="text" name="text" class="name"/>
+            </div>
+            <div class="public">
+                联系电话<input type="number"/>
+            </div>
+            <div class="public spec">
+                <div id="content-wrap">
+                    <div id="content-left" class="demo">
+
+                        <form name="form1">
+                            <div class="infolist">
+                                <lable class="font-add">所在地区：</lable>
+                                <div class="liststyle">
+                                    <span id="Province">
+                                        <i>选择省份</i>
+                                        <ul>
+                                            <li><a href="javascript:void(0)" alt="选择省份">选择省份</a></li>
+                                        </ul>
+                                        <input type="hidden" name="cho_Province" value="选择省份">
+                                    </span>
+                                    <span id="City">
+                                        <i>选择城市</i>
+                                        <ul>
+                                            <li><a href="javascript:void(0)" alt="选择城市">选择城市</a></li>
+                                        </ul>
+                                        <input type="hidden" name="cho_City" value="选择城市">
+                                    </span>
+                                    <span id="Area">
+                                        <i>选择地区</i>
+                                        <ul>
+                                            <li><a href="javascript:void(0)" alt="选择地区">选择地区</a></li>
+                                        </ul>
+                                        <input type="hidden" name="cho_Area" value="选择地区">
+                                    </span>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div id="content-right"></div>
+                </div>
+            </div>
+            <div class="public detail">
+                <input type="text" value="地址详情"/>
+            </div>
+            <div class="public delete-box">
+                <button class="delete">删除地址</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+</body>
+<script src="./js/jquery.min.js"></script>
+<script src="./js/city.min.js"></script>
+</html>

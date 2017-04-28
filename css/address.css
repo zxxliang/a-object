@@ -1,0 +1,342 @@
+
+/*删除地址页面*/
+html,body {
+    width: 100%;
+    height: 100%;
+}
+.bg {
+    width: 100%;
+    height: 100%;
+    background-color: #eeeeee;
+}
+.list {
+    width: 100%;
+}
+.list .top {
+    padding-right: 5%;
+    width: 90%;
+    padding-left: 5%;
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 1.2rem;
+    color: #8F8F8F;
+    border-bottom: 1px solid #cccccc;
+}
+.list .top a {
+    color: #8F8F8F;
+}
+.list .public {
+    width: 95%;
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 14px;
+    color: #8F8F8F;
+    border-bottom: 1px solid #cccccc;
+    padding-left: 5%;
+    font-size: 16px;
+    background-color: #fff;
+}
+.list .public input {
+    /*border: 1px solid #cccccc;*/
+    height: 3rem;
+    width: 70%;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+.list .public .name {
+    padding-left: 20px;
+}
+/*控制小于符号*/
+.list .greater-than {
+    height: 1.5rem;
+    display: inline-block;
+    margin-right: 10px;
+}
+.list .greater-than img {
+    height: 100%;
+}
+/*控制省市区*/
+.list #content-wrap {
+    /*margin-top: 0.5rem;*/
+}
+.list #content-wrap .infolist .liststyle span {
+    width: 28%;
+    margin-right: 2%;
+}
+.list .spec {
+    /*overflow: hidden;*/
+    height: 2.9rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.list .detail input {
+    width: 100%;
+    height: 100%;
+    color: #8F8F8F;
+    padding-left: 0px;
+}
+.list .delete-box {
+    background-color: #fff;
+    margin-top: 1rem;
+    border-bottom: 0px;
+    /*border-top: 1px solid #cccccc;*/
+}
+.list .delete-box .delete {
+    background-color: #fff;
+    color: red;
+    font-size: 16px;
+}
+.list form .infolist .font-add {
+    font-size: 16px;
+    color: #8F8F8F;
+}
+/*新增地址页面*/
+
+.create {
+    width: 70%;
+    height: 60%;
+    /*border: 1px solid #000;*/
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    margin:auto;
+    text-align: center;
+}
+.create .top img {
+    width: 8rem;
+}
+.create .word {
+    font-size: 14px;
+    margin: 2rem 0 3rem 0;
+    color: #cccccc;
+}
+.create .foot input {
+    width: 70%;
+    height: 2.5rem;
+    background-color: #DD127B;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+}
+/*个人中心页面的代码个人个人*/
+.bodyColor {
+    background-color: #E5E5E5;
+}
+.bodyColor .personCenter>.top {
+    height: 15rem;
+    position: relative;
+    background: url('../images/personCenter1.png') no-repeat center center;
+}
+.bodyColor .personCenter .top>.center {
+    height: 11rem;
+    width: 8rem;
+}
+.bodyColor .personCenter .top>.center .out {
+    padding: 0.2rem;
+    border-radius: 50%;
+    background-color: #fff;
+    width: 8rem;
+    height: 8rem;
+    box-shadow: 3px 3px 10px rgba( 3, 5, 10, .2 );
+}
+.bodyColor .personCenter>.top .center .shop {
+    font-size: 16px;
+}
+.personCenter .top .integral {
+    color: #dd137b;
+}
+.bodyColor .center {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    /*background-color: red;*/
+    text-align: center;
+}
+.bodyColor .personCenter>.top .center .circle {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    background: url('../images/personCenter.png') no-repeat center center;
+
+}
+.bodyColor .personCenter>.top .center span {
+    font-size: 14px;
+}
+.personCenter .middle {
+    height: 10rem;
+    position: relative;
+    background-color: #fff;
+    margin: 1rem 0;
+}
+.personCenter .middle>.middle-top {
+    height: 2rem;
+    line-height: 2rem;
+    border-bottom: 1px solid #cccccc;
+    padding-left: 10px;
+}
+
+.personCenter .middle>.center {
+    height: 4rem;
+    width: 80%;
+    font-size: 14px;
+}
+.personCenter .middle>.center img {
+    height: 2rem;
+}
+.personCenter .middle>.center .mid {
+    width: 60%;
+}
+.personCenter .middle>.center .left {
+    width: 20%;
+ }
+.personCenter .middle>.center .right {
+    width: 20%;
+}
+/*底部部分*/
+.bodyColor .list {
+    background-color: #fff;
+    height: 5rem;
+    position: relative;
+    border-bottom: 1px solid #cccccc;
+}
+.bodyColor .list>.center {
+    height: 3rem;
+    line-height: 3rem;
+    width: 90%;
+    font-size: 16px;
+}
+.bodyColor .list>.center>.font {
+    width: 2rem;
+}
+.bodyColor .list>.center>.fr img {
+    height: 2rem;
+}
+.bodyColor .list>.center .history {
+    margin-left: 20px;
+}
+.bodyColor .list>.center .font img {
+    /*height: 2rem;*/
+    width: 100%;
+}
+
+/*我的收货地址页面*/
+
+/*页头*/
+.myGoods .public {
+    border-top: 4px solid #E5E5E5;
+    border-bottom: 4px solid #E5E5E5;
+}
+/*跳转到地址栏*/
+.myGoods .reminder {
+    width: 90%;
+    height: 60px;
+    padding: 20px 10px;
+}
+.myGoods .reminder .skip {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+.myGoods .reminder .skip .skip-word {
+    display: inline-block;
+    width: 88%;
+    color: #333333;
+    margin-left: 10%;
+
+}
+.myGoods .reminder .skip .skip-word .top {
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+}
+.myGoods .reminder .skip .skip-word .bottom {
+    font-size: 14px;
+}
+.myGoods .reminder .skip .skip-word p {
+    width: 100%;
+}
+
+.myGoods .reminder a .imgOne {
+    height: 2rem;
+    position: absolute;
+    top: 20%;
+    left: 0;
+}
+.myGoods .reminder a .imgTwo {
+    width: 3%;
+    position: absolute;
+    top: 40%;
+    right: 0;
+}
+.myGoods .public .doSomeThing {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-top: 1px solid #cccccc;
+}
+.myGoods .public .doSomeThing .right {
+    margin-right: 20px;
+    font-size: 12px;
+}
+.myGoods .public .doSomeThing .right img {
+    height: 20px;
+}
+/*新增地址页面开始*/
+
+.newAddress {
+    height: 60%;
+    width: 100%;
+    /*padding-left: 5%;*/
+}
+.newAddress .top {
+    padding-right: 5%;
+    width: 90%;
+    padding-left: 5%;
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 1.2rem;
+    color: #8F8F8F;
+    border-bottom: 1px solid #cccccc;
+}
+.newAddress .public {
+    width: 95%;
+    height: 4rem;
+    line-height: 4rem;
+    font-size: 14px;
+    color: #8F8F8F;
+    border-bottom: 1px solid #cccccc;
+    padding-left: 5%;
+}
+.newAddress .public input {
+    /*border: 1px solid #cccccc;*/
+    height: 3rem;
+    width: 70%;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+/*控制省市区*/
+.newAddress #content-wrap {
+    margin-top: 0.5rem;
+}
+.newAddress #content-wrap .infolist .liststyle span {
+    width: 28%;
+    margin-right: 2%;
+}
+.newAddress .spec {
+    /*overflow: hidden;*/
+    height: 3.5rem;
+}
+/*控制小于符号*/
+.newAddress .greater-than {
+    font-size: 20px;
+    font-family: '宋体';
+    margin-right: 10px;
+    font-weight: 700;
+}
+.newAddress .detail input {
+    width: 100%;
+}

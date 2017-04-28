@@ -1,0 +1,194 @@
+
+/*页头*/
+.html,body {
+    width: 100%;
+    height: 100%;
+}
+.header {
+    width: 90%;
+    height: 1.5rem;
+    border-bottom: 1px solid #cccccc;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+
+/*商品具体信息*/
+.content {
+    /*border-top: 1px solid #cccccc;*/
+    /*display: none;*/
+}
+.content, .content ul {
+    width: 100%;
+    height: 100%;
+}
+.content ul li {
+    width: 100%;
+    height: 6rem;
+    border-bottom: 1px solid #cccccc;
+    /*border-top: 1px solid #cccccc;*/
+    /*margin-bottom: 3px;*/
+}
+.content ul li .mid {
+    width: 90%;
+    height: 5rem;
+    margin: 0.5rem auto;
+}
+.content ul li .mid .left-img {
+    float: left;
+    position: relative;
+}
+.content ul li .mid .left-img img:nth-child(1) {
+    width: 130px;
+}
+.content ul li .mid .left-img .action {
+    width: 40px;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+.content ul li .mid .right-content {
+    width: 50%;
+    height: 5rem;
+    /*background-color: yellow;*/
+    float: right;
+    /*padding-left: 5%;*/
+}
+.content ul .right-content>p {
+    height: 1.66rem;
+    line-height: 1.66rem;
+    width: 100%;
+}
+.right-content-one>span:nth-child(1) {
+    /*margin-right: 2rem;*/
+    font-size: 20px;
+    font-family: Verdana, "华文细黑";
+    color: #666666;
+}
+.show {
+    display: inline-block;
+}
+.show span {
+    border-radius: 3px;
+}
+/*特限 两字的特效*/
+.right-content-one .show>span:nth-child(1), .right-content-one .show>span:nth-child(2) {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    text-align: center;
+    line-height: 1rem;
+    background-color: #FFAD37;
+    color: #fff;
+}
+.right-content-one .show>span:nth-child(1) {
+    background-color:  #dd137b;
+    color: #fff;
+}
+
+.right-content-two>span:nth-child(1) {
+    text-decoration:line-through;
+    color: #999999;
+    font-size: 12px;
+}
+.right-content-two>span:nth-child(2) {
+    color: #999999;
+    font-size: 12px;
+}
+.right-content-three>span:nth-child(1) {
+    font-size: 20px;
+    color: #FFAD37;
+}
+
+.right-content-three .gou {
+    height: 2.5rem;
+}
+/*特限 两字的特效*/
+.right-content-one .show>span:nth-child(1), .right-content-one .show>span:nth-child(2) {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    text-align: center;
+    line-height: 1rem;
+    /*border-radius: 50%;*/
+    background-color: #FFAD37;
+    color: #fff;
+}
+.right-content-one .show>span:nth-child(1) {
+    background-color:  #dd137b;
+    color: #fff;
+}
+.right-content-two>span:nth-child(1) {
+    text-decoration:line-through;
+    color: #999999;
+}
+.right-content-three>span:nth-child(1) {
+    font-size: 1rem;
+    color: #FFAD37;
+}
+/*加减商品的特效*/
+.right-content-three .num img {
+    width: 0.5rem;
+}
+.right-content-three .number {
+    display: none;
+}
+.right-content-three .number>span:nth-child(1),.right-content-three .number>span:nth-child(3) {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    text-align: center;
+    line-height: 1rem;
+    border-radius: 50%;
+    /*background-color: #fff;*/
+    border: 1px solid #dd137b;
+    color: #dd137b;
+}
+.right-content-three .number>span:nth-child(3) {
+    background-color: #dd137b;
+    color: #fff;
+}
+.right-content-three .htm {
+    border-radius: 5px;
+    /*display: inline-block;*/
+    width: 3rem;
+    height: 1.4rem;
+    text-align: center;
+    line-height: 1.4rem;
+    border: 1px solid #dd137b;
+}
+
+/*底部*/
+.footer {
+    height: 3rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    border-top: 1px solid #cccccc;
+    background-color: #fff;
+}
+.footer .left {
+    width: 45%;
+    height: 3rem;
+    /*line-height: 3rem;*/
+    text-align: center;
+}
+.footer .left span {
+    width: 50%;
+    height: 3rem;
+    line-height: 3rem;
+    display: inline-block;
+    font-size: 1rem;
+}
+.footer .left span:nth-child(2){
+    font-size: 1.5rem;
+    color: #FFAD37;
+}
+.footer .right {
+    width: 55%;
+    height: 3rem;
+}
+.footer .right img {
+    width: 50%;
+    height: 3rem;
+}
